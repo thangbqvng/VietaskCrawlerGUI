@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="VietAskCrawler.jnlp">
+  <information>
+    <title>VietAskCrawler</title>
+    <vendor>thangbq</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="VietAskCrawler.jar" size="15926" download="eager" />
+    <jar href="lib/commons-io-2.5.jar" size="208696" download="eager" />
+    <jar href="lib/jxl.jar" size="725735" download="eager" />
+    <jar href="lib/log4j-1.2.17.jar" size="489883" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="VietAskCrawler" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="vietaskcrawler.VietAskCrawler"  name="VietAskCrawler" />
+  <update check="always"/>
+</jnlp>
